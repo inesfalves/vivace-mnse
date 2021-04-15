@@ -1,0 +1,8 @@
+html {
+    min-height: 100%;
+}
+
+body{
+    background-image: linear-gradient(#B4E1FF, #AB87FF);
+    color: white;
+}
