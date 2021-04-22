@@ -10,14 +10,14 @@
   font-family: "Catamaran", sans-serif;
 }
 
-.App-header {
+.Home-header {
   font-size: calc(17px + 2vmin);
   color: white;
-  text-shadow: 2px 2px 5px #775a77;
+  text-shadow: 0px 3px 10px rgba(0,0,0,0.16);
 }
 
-.App-desc {
+.Home-desc {
   font-size: large;
   font-weight: bold;
-  text-shadow: 2px 2px 5px #775a77;
+  text-shadow: 0px 3px 10px rgba(0,0,0,0.16);
 }

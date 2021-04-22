@@ -1,16 +1,18 @@
 import "./App.css";
-import Button from "./Components/Button.js";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import DecadePage from "./Components/Pages/DecadePage";
+import HomePage from "./Components/Pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>VIVACE</h1>
-        <p className="App-desc">An interactive timeline for pop music lovers</p>
-      </header>
-      <Button></Button>
-      <p className="App-desc">Press Play to continue</p>
-    </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path="/" exact component={HomePage}/>
+            <Route path="/example" component={DecadePage}/>
+          </Switch>
+        </div>
+      </Router>
   );
 }
 
