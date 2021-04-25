@@ -1,18 +1,20 @@
 import "./App.css";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DecadePage from "./Components/Pages/DecadePage";
 import HomePage from "./Components/Pages/HomePage";
 
 function App() {
   return (
-      <Router>
+    <Router>
+      <Switch>
         <div className="App">
-          <Switch>
-            <Route path="/" exact component={HomePage}/>
-            <Route path="/example" component={DecadePage}/>
-          </Switch>
+          <Route path="/" exact component={HomePage} />
         </div>
-      </Router>
+      </Switch>
+      <Switch>
+        <Route path="/example" component={DecadePage} />
+      </Switch>
+    </Router>
   );
 }
 

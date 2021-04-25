@@ -1,4 +1,3 @@
-import "./Button.css";
 import play from "../play_button.png";
 
 function Button() {
