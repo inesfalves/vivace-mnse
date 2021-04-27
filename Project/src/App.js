@@ -12,6 +12,7 @@ function App() {
         <div className="App">
           <Route path="/" exact component={HomePage} />
           <Route path="/final" exact component={FinalPage} />
+          <Route path="/example" component={DecadePage} />
           <Route
             path="/video"
             exact
@@ -19,9 +20,6 @@ function App() {
             render={(props) => <VideoPage {...props} url={"9ZkuqRGeLJM"} />}
           />
         </div>
-      </Switch>
-      <Switch>
-        <Route path="/example" component={DecadePage} />
       </Switch>
     </Router>
   );

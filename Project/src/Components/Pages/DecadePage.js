@@ -1,11 +1,8 @@
 import Timeline from "../Timeline.js";
+import HistoryInfo from "../HistoryInfo.js";
 
 function DecadePage() {
-  return (
-    <div className="DecadePage">
-      <Timeline progress={0}></Timeline>;
-    </div>
-  );
+  return <HistoryInfo></HistoryInfo>;
 }
 
 export default DecadePage;
