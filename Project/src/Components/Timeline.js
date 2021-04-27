@@ -1,5 +1,6 @@
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
+import whiteDot from "../whitedot.png";
 
 function Timeline(props) {
   return (
@@ -12,8 +13,8 @@ function Timeline(props) {
           {({ accomplished }) => (
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="80"
-              src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/9d/Pichu.png/revision/latest?cb=20170407222851"
+              width="60"
+              src={whiteDot}
             />
           )}
         </Step>
@@ -22,7 +23,7 @@ function Timeline(props) {
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
               width="30"
-              src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/9d/Pichu.png/revision/latest?cb=20170407222851"
+              src={whiteDot}
             />
           )}
         </Step>
@@ -31,7 +32,7 @@ function Timeline(props) {
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
               width="30"
-              src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/9d/Pichu.png/revision/latest?cb=20170407222851"
+              src={whiteDot}
             />
           )}
         </Step>
@@ -40,7 +41,7 @@ function Timeline(props) {
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
               width="30"
-              src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/9d/Pichu.png/revision/latest?cb=20170407222851"
+              src={whiteDot}
             />
           )}
         </Step>
@@ -48,8 +49,8 @@ function Timeline(props) {
           {({ accomplished }) => (
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="80"
-              src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/97/Pikachu_%28Smiling%29.png/revision/latest?cb=20170410234508"
+              width="60"
+              src={whiteDot}
             />
           )}
         </Step>
@@ -57,8 +58,107 @@ function Timeline(props) {
           {({ accomplished }) => (
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="80"
-              src="https://orig00.deviantart.net/493a/f/2017/095/5/4/raichu_icon_by_pokemonshuffle_icons-db4ryym.png"
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="60"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="60"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="60"
+              src={whiteDot}
             />
           )}
         </Step>
