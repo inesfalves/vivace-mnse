@@ -16,7 +16,7 @@ function HomePage() {
             An interactive timeline for pop music lovers
           </p>
         </header>
-        <Link to="/example">
+        <Link to="/tl">
           <Button />
         </Link>
         <p className="Home-desc">Press Play to continue</p>
