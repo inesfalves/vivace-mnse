@@ -1,4 +1,4 @@
-import Timeline from "./Timeline.js";
+import Timeline from "../Timeline.js";
 
 function DecadePage() {
   return (
