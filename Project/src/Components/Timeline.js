@@ -40,6 +40,24 @@ function Timeline(props) {
           {({ accomplished }) => (
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="60"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              src={whiteDot}
+            />
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
               width="30"
               src={whiteDot}
             />
@@ -76,61 +94,7 @@ function Timeline(props) {
           {({ accomplished }) => (
             <img
               style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
               width="60"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
               src={whiteDot}
             />
           )}

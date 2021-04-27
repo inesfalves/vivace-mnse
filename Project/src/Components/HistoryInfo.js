@@ -1,3 +1,5 @@
+import Timeline from "./Timeline";
+
 function HistoryInfo() {
   return (
     <div className="historyInfo">
@@ -30,6 +32,7 @@ function HistoryInfo() {
         height="500"
         className="artistImage"
       ></img>
+      <Timeline progress={0}></Timeline>;
     </div>
   );
 }

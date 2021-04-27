@@ -4,7 +4,7 @@ function VideoPage(props) {
   return (
     <div>
       <h1 className="Home-header">VERY IMPORTANT EVENT</h1>
-      <hr></hr>
+      <hr/>
       <iframe
         className="player"
         width="853"
@@ -15,7 +15,7 @@ function VideoPage(props) {
         allowFullScreen
         title="Embedded youtube"
       />
-      <Timeline className="timeline" progress={0}></Timeline>;
+      <Timeline className="timeline" progress={0}/>;
     </div>
   );
 }
