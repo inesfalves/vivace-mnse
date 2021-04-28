@@ -1,7 +1,10 @@
+import "../../App.css";
 import { useState } from "react";
 import VideoPage from "./VideoPage";
 import Timeline from "../Timeline";
 import {decadesData} from "../../data";
+import HistoryInfo from "../HistoryInfo";
+import FinalPage from "./FinalPage";
 
 function DecadePage() {
   const [decadeIndex, setDecadeIndex] = useState(0);
@@ -40,8 +43,9 @@ function DecadePage() {
 
   return (
     <div className="DecadePage">
-      <VideoPage url={decadeData.video} title={decadeData.title}/>
-        {/*{isVideoPage? "yes" : "no"}*/}
+      <VideoPage title={decadeData.title} url={decadeData.video} className={isVideoPage ? "" : "invisible"}/>
+      <HistoryInfo title={decadeData.title} description={decadeData.description} image={decadeData.image} className={isVideoPage ? "invisible" : ""}/>
+      <FinalPage title={decadeData.title} description={decadeData.description} spotify={decadeData.spotify}/>
       <Timeline className="timeline" progress={decadeIndex * 5} />
       <button onClick={decrementButton}>&lt;</button>
       <button onClick={incrementButton}>&gt;</button>
