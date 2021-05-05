@@ -1,5 +1,5 @@
 .App {
-  height: 90%;
+  height: 85%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
 }
 
 .historyInfo {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -74,6 +74,8 @@
   display: none !important;
 }
 
-.DecadePage button {
-
+.button {
+  padding: 0;
+  border: none;
+  background: none;
 }
