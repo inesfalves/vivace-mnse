@@ -68,7 +68,7 @@ function DecadePage() {
           description={decadeData.description}
           spotify={decadeData.spotify}
         />
-        <Timeline className="timeline" progress={decadeIndex * 5} />
+        <Timeline className="timeline" progress={decadeIndex * 6.25} />
       </div>
       <Button name={rightArrow} event={incrementButton}>
         &lt;

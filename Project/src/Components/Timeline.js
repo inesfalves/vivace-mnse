@@ -7,123 +7,159 @@ function Timeline(props) {
     <div className="timeline">
       <ProgressBar
         percent={props.progress}
-        filledBackground="linear-gradient(to right, #fefb72, #f0bb31)"
+        filledBackground="linear-gradient(to right, #fface4, #eb96e1, #d285e6, #b056c7)"
       >
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="/final">
+              {" "}
+              <img width="60" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="60" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="60" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="30"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
         <Step transition="scale">
-          {({ accomplished }) => (
-            <img
-              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-              width="60"
-              src={whiteDot}
-            />
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="60" src={whiteDot} />
+              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
+              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="60" src={whiteDot} />
+              {index + 1}
+            </a>
           )}
         </Step>
       </ProgressBar>

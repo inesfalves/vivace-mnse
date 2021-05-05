@@ -11,7 +11,7 @@ function HistoryInfo(props) {
         </div>
         <img
           src={props.image}
-          width="400"
+          width="360"
           height="480"
           className="artistImage"
         />
