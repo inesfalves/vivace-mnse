@@ -9,12 +9,15 @@ function HistoryInfo(props) {
           <hr />
           <p className="Home-desc">{props.description}</p>
         </div>
-        <img
-          src={props.image}
-          width="360"
-          height="480"
-          className="artistImage"
-        />
+        <div className="container">
+          <img
+            src={props.image}
+            width="360"
+            height="480"
+            className="artistImage"
+          />
+          <div class="centered">80s</div>
+        </div>
       </div>
     );
 

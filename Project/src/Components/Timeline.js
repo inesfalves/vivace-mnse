@@ -14,7 +14,6 @@ function Timeline(props) {
             <a href="/final">
               {" "}
               <img width="60" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -23,7 +22,14 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="/final">
+              {" "}
+              <img width="60" src={whiteDot} />
             </a>
           )}
         </Step>
@@ -32,7 +38,14 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="/final">
+              {" "}
+              <img width="60" src={whiteDot} />
             </a>
           )}
         </Step>
@@ -41,7 +54,22 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="/final">
+              {" "}
+              <img width="60" src={whiteDot} />
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a href="url">
+              {" "}
+              <img width="30" src={whiteDot} />
             </a>
           )}
         </Step>
@@ -50,7 +78,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="60" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -59,25 +86,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -86,7 +94,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="60" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -95,25 +102,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -122,7 +110,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="60" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -131,25 +118,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>
@@ -158,7 +126,6 @@ function Timeline(props) {
             <a href="url">
               {" "}
               <img width="60" src={whiteDot} />
-              {index + 1}
             </a>
           )}
         </Step>

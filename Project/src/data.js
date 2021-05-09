@@ -11,7 +11,7 @@ export const decadesData = [
       "The ‘80s was creating a pop-music culture like no other decade had before it, a culture that would carry through in the decades to come.\n",
     video: "",
     image:
-      "https://i.pinimg.com/originals/6f/2f/c3/6f2fc3d22040732986e43e2f056e97d7.jpg",
+      "https://i.pinimg.com/originals/bc/93/50/bc935053c21ef93a32f20aff8e3edf48.jpg",
     spotify: "",
   },
   {

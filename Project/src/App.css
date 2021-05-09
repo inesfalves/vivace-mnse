@@ -64,19 +64,43 @@
 }
 
 .artistImage {
-  border-width: 0.3em;
-  border-color: white;
-  border-style: solid;
-  border-radius: 0.2em;
+  -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  filter: blur(3px);
+}
+
+.container {
+  max-height: 480px;
+  font-size: 8em;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .invisible {
   display: none !important;
 }
 
-.button {
+.leftButton,
+.rightButton {
   padding: 0;
   border: none;
   background: none;
   cursor: pointer;
+  position: fixed;
+}
+
+.leftButton {
+  left: 4%;
+}
+
+.rightButton {
+  right: 4%;
 }

@@ -48,7 +48,11 @@ function DecadePage() {
 
   return (
     <div className="historyInfo">
-      <Button name={leftArrow} event={decrementButton}>
+      <Button
+        buttonClass={"leftButton"}
+        name={leftArrow}
+        event={decrementButton}
+      >
         &lt;
       </Button>
       <div>
@@ -68,9 +72,13 @@ function DecadePage() {
           description={decadeData.description}
           spotify={decadeData.spotify}
         />
-        <Timeline className="timeline" progress={decadeIndex * 6.25} />
+        <Timeline className="timeline" progress={decadeIndex * (100 / 14)} />
       </div>
-      <Button name={rightArrow} event={incrementButton}>
+      <Button
+        buttonClass={"rightButton"}
+        name={rightArrow}
+        event={incrementButton}
+      >
         &lt;
       </Button>
     </div>
