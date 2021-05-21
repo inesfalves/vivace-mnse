@@ -9,7 +9,7 @@ function FinalPage(props) {
 
   const uri = "spotify:playlist:" + props.spotify;
 
-  const result = (props.spotify.length === 0) ? (<div/>) : (
+  const result = (props.quiz || props.spotify.length === 0) ? (<div/>) : (
     <div>
       <h1 className="Home-header">{props.title}</h1>
       <hr/>
