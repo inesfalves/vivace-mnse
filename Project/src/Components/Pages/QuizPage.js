@@ -5,10 +5,6 @@ import Video from "../Video";
 import {data} from "../../data";
 
 function QuizPage(props) {
-    /*const [hasVideo, setHasVideo] = useState(
-        !(data[props.index][0].video.length === 0)
-    );*/
-
     let questions = data[props.index];
 
     const [currentQuestion, setCurrentQuestion] = useState(0);

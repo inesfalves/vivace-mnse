@@ -166,6 +166,63 @@ export const data = [
     ],
     [
         {
+            question: "Mauris blandit sapien sed neque ultrices, sit amet pharetra nunc imperdiet?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Proin ultrices', isCorrect: true },
+                { answerText: 'Nulla erat', isCorrect: false },
+                { answerText: 'Ut consequat', isCorrect: false },
+                { answerText: 'Fusce nec', isCorrect: false },
+            ]
+        },
+        {
+            question: "Aliquam a lorem elit?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Britney Spears', isCorrect: false },
+                { answerText: 'Trisha Paytas', isCorrect: true },
+                { answerText: 'Elton John', isCorrect: false },
+                { answerText: 'Lady Gaga', isCorrect: false },
+            ]
+        },
+        {
+            question: "Phasellus sodales condimentum feugiat?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: '1983', isCorrect: false },
+                { answerText: '1984', isCorrect: false },
+                { answerText: '1988', isCorrect: true },
+                { answerText: '1981', isCorrect: false },
+            ]
+        },
+        {
+            question: "Duis faucibus blandit rutrum?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Proin ultrices', isCorrect: false },
+                { answerText: 'Nulla erat', isCorrect: false },
+                { answerText: 'Ut consequat', isCorrect: true },
+                { answerText: 'Fusce nec', isCorrect: false },
+            ]
+        },
+        {
+            question: "Chega aqui aonde?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Titanic', isCorrect: false },
+                { answerText: 'Purple Rain', isCorrect: false },
+                { answerText: 'Grease', isCorrect: true },
+                { answerText: 'Dirty Dancing', isCorrect: false },
+            ]
+        }
+    ],
+    [
+        {
             title: "POP MUSIC IN THE 2010s",
             description:
                 "Pop music had remained significantly popular due to dance-pop, electropop and synth-pop in this decade.\n" +
@@ -175,5 +232,62 @@ export const data = [
                 "https://i.pinimg.com/originals/d4/d9/d7/d4d9d77145aec7eeacecc253da6546f6.jpg",
             spotify: "",
         },
+    ],
+    [
+        {
+            question: "Mauris blandit sapien sed neque ultrices, sit amet pharetra nunc imperdiet?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Proin ultrices', isCorrect: true },
+                { answerText: 'Nulla erat', isCorrect: false },
+                { answerText: 'Ut consequat', isCorrect: false },
+                { answerText: 'Fusce nec', isCorrect: false },
+            ]
+        },
+        {
+            question: "Aliquam a lorem elit?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Britney Spears', isCorrect: false },
+                { answerText: 'Trisha Paytas', isCorrect: true },
+                { answerText: 'Elton John', isCorrect: false },
+                { answerText: 'Lady Gaga', isCorrect: false },
+            ]
+        },
+        {
+            question: "Phasellus sodales condimentum feugiat?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: '1983', isCorrect: false },
+                { answerText: '1984', isCorrect: false },
+                { answerText: '1988', isCorrect: true },
+                { answerText: '1981', isCorrect: false },
+            ]
+        },
+        {
+            question: "Duis faucibus blandit rutrum?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Proin ultrices', isCorrect: false },
+                { answerText: 'Nulla erat', isCorrect: false },
+                { answerText: 'Ut consequat', isCorrect: true },
+                { answerText: 'Fusce nec', isCorrect: false },
+            ]
+        },
+        {
+            question: "Chega aqui aonde?",
+            video: "9ZkuqRGeLJM",
+            audio: "",
+            answerOptions: [
+                { answerText: 'Titanic', isCorrect: false },
+                { answerText: 'Purple Rain', isCorrect: false },
+                { answerText: 'Grease', isCorrect: true },
+                { answerText: 'Dirty Dancing', isCorrect: false },
+            ]
+        }
     ]
 ];
