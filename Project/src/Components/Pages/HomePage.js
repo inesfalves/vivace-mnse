@@ -18,7 +18,7 @@ function HomePage() {
           </p>
         </header>
         <Link to="/tl">
-          <Button name={play} />
+          <Button buttonClass={"playButton"} name={play} />
         </Link>
         <p className="Home-desc">Press Play to continue</p>
       </div>
