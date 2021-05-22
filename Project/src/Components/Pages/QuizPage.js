@@ -1,6 +1,6 @@
 import "../../App.css";
 //import "./QuizPage.css";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import Video from "../Video";
 import {data} from "../../data";
 
@@ -10,6 +10,7 @@ function QuizPage(props) {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
+    const [tmpIndex, setTmpIndex] = useState(props.index);
 
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
@@ -23,6 +24,14 @@ function QuizPage(props) {
             setShowScore(true);
         }
     };
+
+    useEffect(() => {
+        if (tmpIndex !== props.index){
+            setCurrentQuestion(0);
+            setShowScore(false);
+            setTmpIndex(props.index);
+        }
+    });
 
     return (props.quiz ? (
         /*<div>

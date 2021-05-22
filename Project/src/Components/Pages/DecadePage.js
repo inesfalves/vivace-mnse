@@ -24,28 +24,26 @@ function DecadePage() {
     }
   };
 
-    const decrementPage = () => {
-        if (pageIndex > 0) {
-            setPageIndex(pageIndex - 1);
-        }
-    };
+  const decrementPage = () => {
+    if (pageIndex > 0) {
+        setPageIndex(pageIndex - 1);
+    }
+  };
 
     return (
-
         <div className="historyInfo">
-            <Button
+            {(pageIndex === 0) ? (<div/>) : <Button
                 buttonClass={"leftButton"}
                 name={leftArrow}
                 event={decrementPage}
             >
                 &lt;
-            </Button>
+            </Button>}
                 <div>
                     <QuizPage
                         index={pageIndex}
                         quiz={isQuizPage()}
                     />
-                    <Timeline className="timeline" progress={pageIndex * (100 / 14)} />
                 </div>
                 <div>
                     <HistoryInfo
@@ -64,13 +62,13 @@ function DecadePage() {
                     />
                     <Timeline className="timeline" progress={pageIndex * (100 / 14)} />
                 </div>
-            <Button
+            {(pageIndex === data.length - 1) ? (<div/>) :<Button
                 buttonClass={"rightButton"}
                 name={rightArrow}
                 event={incrementPage}
             >
                 &lt;
-            </Button>
+            </Button>}
         </div>
     );
 

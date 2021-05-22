@@ -18,7 +18,6 @@ export const data = [
     ],
     [
         {
-            title: "",
             question: "Mauris blandit sapien sed neque ultrices, sit amet pharetra nunc imperdiet?",
             video: "9ZkuqRGeLJM",
             audio: "",
@@ -30,7 +29,6 @@ export const data = [
             ]
         },
         {
-            title: "",
             question: "Aliquam a lorem elit?",
             video: "9ZkuqRGeLJM",
             audio: "",
@@ -42,7 +40,6 @@ export const data = [
             ]
         },
         {
-            title: "",
             question: "Phasellus sodales condimentum feugiat?",
             video: "9ZkuqRGeLJM",
             audio: "",
@@ -54,7 +51,6 @@ export const data = [
             ]
         },
         {
-            title: "",
             question: "Duis faucibus blandit rutrum?",
             video: "9ZkuqRGeLJM",
             audio: "",
@@ -66,7 +62,6 @@ export const data = [
             ]
         },
         {
-            title: "",
             question: "Chega aqui aonde?",
             video: "9ZkuqRGeLJM",
             audio: "",
