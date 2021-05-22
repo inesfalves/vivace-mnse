@@ -29,6 +29,7 @@ function QuizPage(props) {
         if (tmpIndex !== props.index){
             setCurrentQuestion(0);
             setShowScore(false);
+            setScore(0);
             setTmpIndex(props.index);
         }
     });
