@@ -125,3 +125,7 @@
 .rightButton {
   right: 4%;
 }
+
+.timelineButton{
+  cursor: pointer;
+}

@@ -2,40 +2,24 @@ import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
 import whiteDot from "../whitedot.png";
 
-function Timeline(props) {
+function Timeline({updatePageIndex, className, progress}) {
   return (
     <div className="timeline">
       <ProgressBar
-        percent={props.progress}
+        percent={progress}
         filledBackground="linear-gradient(to right, #fface4, #eb96e1, #d285e6, #b056c7)"
       >
         <Step transition="scale">
           {({ index }) => (
-            <a href="/final">
+            <a className="timelineButton" onClick={() => updatePageIndex(0)}>
               {" "}
-              <img width="60" src={whiteDot} />
+              <img width="60" src={whiteDot}/>
             </a>
           )}
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
-              {" "}
-              <img width="30" src={whiteDot} />
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="/final">
-              {" "}
-              <img width="60" src={whiteDot} />
-            </a>
-          )}
-        </Step>
-        <Step transition="scale">
-          {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(1)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -43,7 +27,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="/final">
+            <a className="timelineButton" onClick={() => updatePageIndex(2)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
@@ -51,7 +35,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(3)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -59,7 +43,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="/final">
+            <a className="timelineButton" onClick={() => updatePageIndex(4)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
@@ -67,7 +51,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(5)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -75,7 +59,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(6)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
@@ -83,7 +67,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(7)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -91,7 +75,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(8)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
@@ -99,7 +83,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(9)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -107,7 +91,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(10)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
@@ -115,7 +99,7 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(11)}>
               {" "}
               <img width="30" src={whiteDot} />
             </a>
@@ -123,7 +107,23 @@ function Timeline(props) {
         </Step>
         <Step transition="scale">
           {({ index }) => (
-            <a href="url">
+            <a className="timelineButton" onClick={() => updatePageIndex(12)}>
+              {" "}
+              <img width="60" src={whiteDot} />
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a className="timelineButton" onClick={() => updatePageIndex(13)}>
+              {" "}
+              <img width="30" src={whiteDot} />
+            </a>
+          )}
+        </Step>
+        <Step transition="scale">
+          {({ index }) => (
+            <a className="timelineButton" onClick={() => updatePageIndex(14)}>
               {" "}
               <img width="60" src={whiteDot} />
             </a>
