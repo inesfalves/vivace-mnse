@@ -70,7 +70,7 @@ function DecadePage() {
         />
       </div>
       {pageIndex === data.length - 1 ? (
-        <div />
+        <div style={{ display: "none" }}></div>
       ) : (
         <Button
           buttonClass={"rightButton"}

@@ -9,6 +9,7 @@ export const data = [
         "He was combining country, blues, and folk music with the mainstream rock sounds that everyone was listening to, and the result was something that took the focus away from the large, sweeping orchestras of the previous decades, and placed it on the emotion of the music, evident in the sounds of artists like Johnnie Ray, Frankie Laine, and Guy Mitchell — all of whom worked with Mitch Miller. \n" +
         "This decade was also one of celebration for Elvis Presley, who came around in 1953, and whose songs, like “Hound Dog” were some of the most loved of the time.\n",
       video: "",
+      audio: "",
       image:
         "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/61f81a112509161.6015c1f980c56.jpg",
       spotify: "",
@@ -18,9 +19,9 @@ export const data = [
     {
       question: "Which of the following artists sings this song?",
       video: "",
-      audio: "",
-      image:
-        "https://itk-assets.nyc3.cdn.digitaloceanspaces.com/2021/04/Screen-Shot-2021-04-16-at-4.48.29-PM-1620x911.jpg",
+      audio:
+        "https://cdn.discordapp.com/attachments/681445858469871637/846018176328400966/Elvis_Presley_-_Hound_Dog_Audio.mp3",
+      image: "",
       answerOptions: [
         { answerText: "Frank Sinatra", isCorrect: false },
         { answerText: "Elvis Presley", isCorrect: true },
@@ -31,8 +32,7 @@ export const data = [
     {
       question: "What is the name of the song in this music video?",
       video: "",
-      audio:
-        "https://cdn.discordapp.com/attachments/681445858469871637/846002265823248424/bestsong.mp3",
+      audio: "",
       image: "",
       answerOptions: [
         { answerText: "Mr. Sandman", isCorrect: true },
@@ -44,8 +44,9 @@ export const data = [
     {
       question: "What is the name of the artist in this picture?",
       video: "",
-      audio: "../AudioFiles/bestsong.mp3",
-      image: "",
+      audio: "",
+      image:
+        "https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2016/01/mi_6077142293184155.jpg",
       answerOptions: [
         { answerText: "Frank Sinatra", isCorrect: true },
         { answerText: "Ray Charles", isCorrect: false },
@@ -56,8 +57,10 @@ export const data = [
     {
       question: "In which year was this song released?",
       video: "",
-      audio: "../AudioFiles/bestsong.mp3",
-      image: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846041129278898197/Elvis_Presley_-_Jailhouse_Rock_Audio.mp3",
+      image:
+        "https://itk-assets.nyc3.cdn.digitaloceanspaces.com/2021/04/Screen-Shot-2021-04-16-at-4.48.29-PM-1620x911.jpg",
       answerOptions: [
         { answerText: "1950", isCorrect: false },
         { answerText: "1955", isCorrect: false },
@@ -68,7 +71,7 @@ export const data = [
     {
       question:
         "Which of the following records is the best-selling in the 1950s?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
       image: "",
       answerOptions: [
@@ -96,6 +99,7 @@ export const data = [
         "Through all of this, the pop genre was forming into something not solely defined by the American solo-pop artists of the previous decade. \n" +
         "Now, bands were introduced into the fray, and pop was splitting into sub-genres that included Bubblegum pop—defined by its upbeat sound and its direct aim at teen audiences—and Baroque pop, which blended pop and rock and baroque music together..\n",
       video: "",
+      audio: "",
       image:
         "https://i.pinimg.com/originals/19/95/eb/1995eba5ac858b3fb74fde98d025909e.png",
       spotify: "",
@@ -105,7 +109,8 @@ export const data = [
     {
       question: "Which of the following artists sings this song?",
       video: "",
-      audio: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846041937131864094/Beach_Boys_-_Wouldnt_It_Be_Nice.mp3",
       image: "",
       answerOptions: [
         { answerText: "The Monkees", isCorrect: false },
@@ -128,9 +133,10 @@ export const data = [
     },
     {
       question: "What is the name of the artist in this picture?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
-      image: "",
+      image:
+        "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2017/03/queen.jpg",
       answerOptions: [
         { answerText: "The Beatles", isCorrect: false },
         { answerText: "BTS", isCorrect: false },
@@ -141,7 +147,7 @@ export const data = [
     {
       question:
         "Which of the following records is the best-selling in the 1960s?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
       image: "",
       answerOptions: [
@@ -156,14 +162,15 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846042705981472788/The_Beatles_-_Help.mp3",
       image: "",
       answerOptions: [
         { answerText: "1969", isCorrect: false },
         { answerText: "1964", isCorrect: false },
-        { answerText: "1965", isCorrect: false },
-        { answerText: "1968", isCorrect: true },
+        { answerText: "1965", isCorrect: true },
+        { answerText: "1968", isCorrect: false },
       ],
     },
   ],
@@ -177,6 +184,7 @@ export const data = [
         "Elton John, with his repertoire of diverse sounds ranging from pop ballads to arena rock songs, became one of the biggest pop stars of the time. “Bennie and the Jets” and “Don’t Go Breaking My Heart” are regarded today as musical classics.\n" +
         "Meanwhile, Queen was venturing from their hard rock song into the arena rock and pop rock that was so popular on the radio at the time, and the Jackson 5 was becoming a pop phenomenon with their own hit singles, like “I Want You Back” and “ABC”.\n",
       video: "",
+      audio: "",
       image:
         "https://i.pinimg.com/originals/4e/e9/55/4ee9556b3bb2a1cd1cbbea32848c7965.jpg",
       spotify: "",
@@ -197,9 +205,10 @@ export const data = [
     },
     {
       question: "What is the name of the artist in this picture?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
-      image: "",
+      image:
+        "https://igormiranda.com.br/wp-content/uploads/2017/03/elton-john-1970.jpg",
       answerOptions: [
         { answerText: "Elton John", isCorrect: true },
         { answerText: "David Bowie", isCorrect: false },
@@ -209,11 +218,12 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846043621609963530/Abba_-_Dancing_Queen.mp3",
       image: "",
       answerOptions: [
-        { answerText: "1975", isCorrect: true },
+        { answerText: "1974", isCorrect: true },
         { answerText: "1979", isCorrect: false },
         { answerText: "1973", isCorrect: false },
         { answerText: "1978", isCorrect: false },
@@ -233,8 +243,9 @@ export const data = [
     },
     {
       question: "What is the name of this song?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846043836995207178/Youre_The_One_That_I_Want_From_Grease.mp3",
       image: "",
       answerOptions: [
         {
@@ -263,6 +274,7 @@ export const data = [
         "Female pop powerhouses were also coming into play, like Whitney Houston and Madonna. The latter became the most successful female artist of the decade, with songs like “Like A Virgin”.\n" +
         "The ‘80s was creating a pop-music culture like no other decade had before it, a culture that would carry through in the decades to come.\n",
       video: "",
+      audio: "",
       image:
         "https://i.pinimg.com/originals/bc/93/50/bc935053c21ef93a32f20aff8e3edf48.jpg",
       spotify: "",
@@ -283,8 +295,9 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846044020219576351/Billie_Jean.mp3",
       image: "",
       answerOptions: [
         { answerText: "1986", isCorrect: false },
@@ -307,8 +320,9 @@ export const data = [
     },
     {
       question: "Which of the following artists sings this song?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846044199601045534/Material_Girl.mp3",
       image: "",
       answerOptions: [
         { answerText: "Queen", isCorrect: false },
@@ -320,7 +334,7 @@ export const data = [
     {
       question:
         "Which of the following records is the best-selling in the 1980s?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
       image: "",
       answerOptions: [
@@ -347,6 +361,7 @@ export const data = [
         "The next ten years would see teen pop groups and singers pop up all over the charts, including the Backstreet Boys with “Quit Playing Games (With My Heart)”,\n" +
         "and Britney Spears with “Baby One More Time” — one of the best-selling singles of all time.\n",
       video: "",
+      audio: "",
       image:
         "https://i.pinimg.com/originals/ef/bf/1a/efbf1ab19d4c55d3ac34780f65b2338a.jpg",
       spotify: "",
@@ -367,9 +382,10 @@ export const data = [
     },
     {
       question: "What is the name of the artist in this picture?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
-      image: "",
+      image:
+        "https://cdn.smehost.net/celinedioncom-caprod/wp-content/uploads/2019/02/home-tour-dt-1428-926x678.jpg",
       answerOptions: [
         { answerText: "Cher", isCorrect: false },
         { answerText: "Céline Dion", isCorrect: true },
@@ -379,8 +395,9 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846047730560008233/Wannabe.mp3",
       image: "",
       answerOptions: [
         { answerText: "1992", isCorrect: false },
@@ -403,8 +420,9 @@ export const data = [
     },
     {
       question: "What is the name of this song?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846047946192453682/Vogue.mp3",
       image: "",
       answerOptions: [
         { answerText: "Vogue", isCorrect: true },
@@ -423,6 +441,7 @@ export const data = [
         "Towards the end of the first decade of the 2000s, pop was again being influenced with hip hop and R&B sounds through Rihanna’s music, and electronic sounds made themselves known in Lady Gaga’s sounds from her album, Poker Face, which went on to win two Grammys.\n" +
         "Pop music had become an electric melting pot of subgenres and sounds that all shared the common tropes of a pop song.\n",
       video: "",
+      audio: "",
       image:
         "https://images.8tracks.com/cover/i/000/730/289/808s___Heartbreak_1-1242.png?rect=396,0,768,768&q=98&fm=jpg&fit=max&w=640&h=640",
       spotify: "",
@@ -431,8 +450,9 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846048136677425152/NSYNC_-_Bye_Bye_Bye_Audio.mp3",
       image: "",
       answerOptions: [
         { answerText: "NSYNC", isCorrect: true },
@@ -443,14 +463,15 @@ export const data = [
     },
     {
       question: "What is the name of the artist in this picture?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
-      image: "",
+      image:
+        "https://media.npr.org/assets/music/blogs/monitormix/2009/11/beyonce_wide-8ec7b191c9228c0e5ab2b7443f639298bdb60b70.jpg?s=1400",
       answerOptions: [
         { answerText: "Taylor Swift", isCorrect: false },
-        { answerText: "Katy Perry", isCorrect: true },
+        { answerText: "Katy Perry", isCorrect: false },
         { answerText: "Britney Spears", isCorrect: false },
-        { answerText: "Beyoncé", isCorrect: false },
+        { answerText: "Beyoncé", isCorrect: true },
       ],
     },
     {
@@ -467,8 +488,9 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846050210458763274/Oops..._I_Did_It_Again.mp3",
       image: "",
       answerOptions: [
         { answerText: "2002", isCorrect: false },
@@ -500,6 +522,7 @@ export const data = [
         "As a result, it was a time in which music became truly global, and genres seemed to mutate and fuse. Latin and K-pop became established as major genres, EDM entered the mainstream. Hip-hop was elevated to a new level, outselling rock music for the first time, and saw subgenres like trap and SoundCloud rap achieving mainstream success.\n" +
         "The 2010s was also bookended by two young female artists – Adele and Billie Eilish – who in their own way personified the present and future of popular music.\n",
       video: "",
+      audio: "",
       image: "https://i1.sndcdn.com/artworks-000153949080-rmhovv-t500x500.jpg",
       spotify: "",
     },
@@ -519,8 +542,9 @@ export const data = [
     },
     {
       question: "What is the name of this song?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846050431708692490/Gangnam_Style_.mp3",
       image: "",
       answerOptions: [
         { answerText: "Old Town Road", isCorrect: false },
@@ -581,6 +605,7 @@ export const data = [
       title: "POP MUSIC TODAY",
       description: "",
       video: "",
+      audio: "",
       image: "",
       spotify: "37i9dQZEVXbMDoHDwVN2tF",
     },

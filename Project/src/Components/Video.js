@@ -1,21 +1,19 @@
 function Video(props) {
-  const videoUrl = "https://www.youtube.com/embed/" + props.url;
-
   return props.url.length === 0 ? (
-      <div/>
+    <div />
   ) : (
-      <div>
-          <iframe
-              className="player"
-              width="597"
-              height="336"
-              src={videoUrl}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Embedded youtube"
-          />
-      </div>
+    <div>
+      <iframe
+        className="player"
+        width="597"
+        height="336"
+        src={props.url}
+        src="//www.youtube.com/embed/VNUgsbKisp8?modestbranding=1&autohide=1&showinfo=0&controls=0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Embedded youtube"
+      />
+    </div>
   );
 }
 

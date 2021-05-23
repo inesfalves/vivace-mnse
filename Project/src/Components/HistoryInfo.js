@@ -1,6 +1,6 @@
 function HistoryInfo(props) {
   return props.quiz || props.image.length === 0 ? (
-    <div />
+    <div style={{ display: "none" }}></div>
   ) : (
     <div className="historyInfo">
       <div className="textInfo">
