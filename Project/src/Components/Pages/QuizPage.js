@@ -23,6 +23,7 @@ function QuizPage(props) {
       setScore(score + 1);
     }
     const nextQuestion = currentQuestion + 1;
+
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
       checkIsVideo(nextQuestion);
@@ -55,28 +56,29 @@ function QuizPage(props) {
     <div>
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {questions.length}
+          You scored {score} out of {questions.length}!
         </div>
       ) : (
-        <div>
+        <div className="quizArea">
           <h3>
             Question {currentQuestion + 1}/{questions.length}
           </h3>
           <h1 className="Home-header">{questions[currentQuestion].question}</h1>
-          <hr />
-          {isVideoPage ? (
-            <Video url={questions[currentQuestion].video}></Video>
-          ) : isAudioPage ? (
-            <Audio audio={questions[currentQuestion].audio}></Audio>
-          ) : questions[currentQuestion].image.length === 0 ? (
-            <div />
-          ) : (
-            <img
-              src={questions[currentQuestion].image}
-              width="550"
-              height="325"
-            ></img>
-          )}
+          <div className="quizMedia">
+            {isVideoPage ? (
+              <Video url={questions[currentQuestion].video}></Video>
+            ) : isAudioPage ? (
+              <Audio audio={questions[currentQuestion].audio}></Audio>
+            ) : questions[currentQuestion].image.length === 0 ? (
+              <div />
+            ) : (
+              <img
+                src={questions[currentQuestion].image}
+                width="550"
+                height="325"
+              ></img>
+            )}
+          </div>
           <div className="answer-section">
             {questions[currentQuestion].answerOptions.map((answerOption, i) => (
               <button

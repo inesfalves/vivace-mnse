@@ -241,21 +241,20 @@ export const data = [
       ],
     },
     {
-      question: "What is the name of this song?",
+      question: "What is the name of the song in this audio?",
       video: "",
       audio:
         "https://cdn.discordapp.com/attachments/846035498031382538/846043836995207178/Youre_The_One_That_I_Want_From_Grease.mp3",
       image: "",
       answerOptions: [
         {
-          answerText: "Summer Nights by John Travolta and Olivia Newton John",
+          answerText: "Summer Nights",
           isCorrect: false,
         },
-        { answerText: "Mary's Boy Child by Boney M.", isCorrect: false },
-        { answerText: "Heart of Glass by Blondie", isCorrect: false },
+        { answerText: "Mary's Boy Child", isCorrect: false },
+        { answerText: "Heart of Glass", isCorrect: false },
         {
-          answerText:
-            "You're the One That I Want by John Travolta and Olivia Newton John",
+          answerText: "You're the One That I Want",
           isCorrect: true,
         },
       ],
@@ -418,7 +417,7 @@ export const data = [
       ],
     },
     {
-      question: "What is the name of this song?",
+      question: "What is the name of the song in this audio?",
       video: "",
       audio:
         "https://cdn.discordapp.com/attachments/846035498031382538/846047946192453682/Vogue.mp3",
@@ -499,7 +498,7 @@ export const data = [
       ],
     },
     {
-      question: "What is the name of this song?",
+      question: "What is the name of the song in this music video?",
       video: "https://streamable.com/e/swoxze",
       audio: "",
       image: "",
@@ -540,7 +539,7 @@ export const data = [
       ],
     },
     {
-      question: "What is the name of this song?",
+      question: "What is the name of the song in this audio?",
       video: "",
       audio:
         "https://cdn.discordapp.com/attachments/846035498031382538/846050431708692490/Gangnam_Style_.mp3",
@@ -572,16 +571,16 @@ export const data = [
       image: "",
       answerOptions: [
         {
-          answerText: "Échame la Culpa by Luis Fonsi and Demi Lovato",
+          answerText: "Échame la Culpa",
           isCorrect: false,
         },
-        { answerText: "Dynamite by BTS", isCorrect: false },
+        { answerText: "Dynamite", isCorrect: false },
         {
-          answerText: "Despacito by Luis Fonsi ft. Daddy Yankee",
+          answerText: "Despacito",
           isCorrect: true,
         },
         {
-          answerText: "Royals by Lorde",
+          answerText: "Royals",
           isCorrect: false,
         },
       ],

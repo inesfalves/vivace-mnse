@@ -4,7 +4,7 @@ function Video(props) {
   ) : (
     <div>
       <iframe
-        className="player"
+        className="quizVideo"
         width="550"
         height="325"
         src={props.url}
