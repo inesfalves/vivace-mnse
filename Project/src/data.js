@@ -602,7 +602,8 @@ export const data = [
   [
     {
       title: "POP MUSIC TODAY",
-      description: "",
+      description:
+        "What does music sound like today? Find out with this Spotify playlist!",
       video: "",
       audio: "",
       image: "",

@@ -101,6 +101,16 @@
   transform: translate(-50%, -50%);
 }
 
+.timelineText {
+  position: absolute;
+  font-weight: bold;
+  color: #895cf3;
+  font-size: 1.5em;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .invisible {
   display: none !important;
 }

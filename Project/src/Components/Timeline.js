@@ -2,7 +2,7 @@ import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
 import whiteDot from "../whitedot.png";
 
-function Timeline({updatePageIndex, className, progress}) {
+function Timeline({ updatePageIndex, className, progress }) {
   return (
     <div className="timeline">
       <ProgressBar
@@ -13,7 +13,8 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(0)}>
               {" "}
-              <img width="60" src={whiteDot}/>
+              <div class="timelineText">50s</div>
+              <img width="60" src={whiteDot} />
             </a>
           )}
         </Step>
@@ -29,6 +30,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(2)}>
               {" "}
+              <div class="timelineText">60s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -45,6 +47,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(4)}>
               {" "}
+              <div class="timelineText">70s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -61,6 +64,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(6)}>
               {" "}
+              <div class="timelineText">80s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -77,6 +81,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(8)}>
               {" "}
+              <div class="timelineText">90s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -93,6 +98,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(10)}>
               {" "}
+              <div class="timelineText">00s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -109,6 +115,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(12)}>
               {" "}
+              <div class="timelineText">10s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
@@ -125,6 +132,7 @@ function Timeline({updatePageIndex, className, progress}) {
           {({ index }) => (
             <a className="timelineButton" onClick={() => updatePageIndex(14)}>
               {" "}
+              <div class="timelineText">20s</div>
               <img width="60" src={whiteDot} />
             </a>
           )}
