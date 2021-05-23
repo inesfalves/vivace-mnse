@@ -31,7 +31,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "",
+      video: "E5Z4nEmtZHc",
       audio: "",
       image: "",
       answerOptions: [
@@ -45,8 +45,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "",
       audio: "",
-      image:
-        "https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2016/01/mi_6077142293184155.jpg",
+      image: "https://wallpapercave.com/wp/wp1923357.jpg",
       answerOptions: [
         { answerText: "Frank Sinatra", isCorrect: true },
         { answerText: "Ray Charles", isCorrect: false },
@@ -121,7 +120,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "MGCMXUtaYr4",
       audio: "",
       image: "",
       answerOptions: [
@@ -193,7 +192,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "9ZkuqRGeLJM",
+      video: "L-dcg3vm2do",
       audio: "",
       image: "",
       answerOptions: [
@@ -230,15 +229,15 @@ export const data = [
       ],
     },
     {
-      question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      question: "Which of the following artists sings this song?",
+      video: "7eSdCF_q_AU",
       audio: "",
       image: "",
       answerOptions: [
         { answerText: "Young Men", isCorrect: false },
-        { answerText: "Fun", isCorrect: false },
+        { answerText: "Village People", isCorrect: false },
         { answerText: "YMCA", isCorrect: true },
-        { answerText: "Mambo No. 5", isCorrect: false },
+        { answerText: "Queen", isCorrect: false },
       ],
     },
     {
@@ -283,7 +282,7 @@ export const data = [
   [
     {
       question: "What is the name of the artist in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "Fq1xa31IOkw",
       audio: "",
       image: "",
       answerOptions: [
@@ -308,7 +307,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "9Y2ethFXTe4",
       audio: "",
       image: "",
       answerOptions: [
@@ -370,7 +369,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "9ZkuqRGeLJM",
+      video: "l8zkSP5Ddas",
       audio: "",
       image: "",
       answerOptions: [
@@ -408,7 +407,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "4YAvonHIFUQ",
       audio: "",
       image: "",
       answerOptions: [
@@ -476,7 +475,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "jcPqXvj7LkM",
       audio: "",
       image: "",
       answerOptions: [
@@ -501,7 +500,7 @@ export const data = [
     },
     {
       question: "What is the name of this song?",
-      video: "9ZkuqRGeLJM",
+      video: "jtQG5VkYiIc",
       audio: "",
       image: "",
       answerOptions: [
@@ -530,7 +529,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "9ZkuqRGeLJM",
+      video: "uCMkMTQ0rrA",
       audio: "",
       image: "",
       answerOptions: [
@@ -555,8 +554,9 @@ export const data = [
     },
     {
       question: "In which year was this song released?",
-      video: "9ZkuqRGeLJM",
-      audio: "",
+      video: "",
+      audio:
+        "https://cdn.discordapp.com/attachments/846035498031382538/846050624952598558/Daft_Punk_-_Get_Lucky_Official_Audio_ft._Pharrell_Williams_Nile_Rodgers.mp3",
       image: "",
       answerOptions: [
         { answerText: "2012", isCorrect: false },
@@ -567,7 +567,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9ZkuqRGeLJM",
+      video: "https://youtu.be/xR_AD3yyHlM",
       audio: "",
       image: "",
       answerOptions: [
@@ -589,7 +589,7 @@ export const data = [
     {
       question:
         "Which of the following albums is the best-selling in the 2010s?",
-      video: "9ZkuqRGeLJM",
+      video: "",
       audio: "",
       image: "",
       answerOptions: [
