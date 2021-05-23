@@ -80,6 +80,7 @@ function QuizPage(props) {
           <div className="answer-section">
             {questions[currentQuestion].answerOptions.map((answerOption, i) => (
               <button
+                className="quizButton"
                 key={i}
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
