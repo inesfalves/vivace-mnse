@@ -31,7 +31,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "E5Z4nEmtZHc",
+      video: "https://streamable.com/e/lp6ikl",
       audio: "",
       image: "",
       answerOptions: [
@@ -120,7 +120,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "MGCMXUtaYr4",
+      video: "https://streamable.com/e/t2jqt9?loop=0",
       audio: "",
       image: "",
       answerOptions: [
@@ -192,7 +192,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "L-dcg3vm2do",
+      video: "https://streamable.com/e/l46hpb",
       audio: "",
       image: "",
       answerOptions: [
@@ -230,7 +230,7 @@ export const data = [
     },
     {
       question: "Which of the following artists sings this song?",
-      video: "7eSdCF_q_AU",
+      video: "https://streamable.com/e/15rhs7",
       audio: "",
       image: "",
       answerOptions: [
@@ -282,7 +282,7 @@ export const data = [
   [
     {
       question: "What is the name of the artist in this music video?",
-      video: "Fq1xa31IOkw",
+      video: "https://streamable.com/e/70iozp",
       audio: "",
       image: "",
       answerOptions: [
@@ -307,7 +307,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "9Y2ethFXTe4",
+      video: "https://streamable.com/e/1ygp07",
       audio: "",
       image: "",
       answerOptions: [
@@ -369,7 +369,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "l8zkSP5Ddas",
+      video: "https://streamable.com/e/vqai17",
       audio: "",
       image: "",
       answerOptions: [
@@ -407,7 +407,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "4YAvonHIFUQ",
+      video: "https://streamable.com/e/48yjaf",
       audio: "",
       image: "",
       answerOptions: [
@@ -475,7 +475,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "jcPqXvj7LkM",
+      video: "https://streamable.com/e/ddqeqc",
       audio: "",
       image: "",
       answerOptions: [
@@ -500,12 +500,12 @@ export const data = [
     },
     {
       question: "What is the name of this song?",
-      video: "jtQG5VkYiIc",
+      video: "https://streamable.com/e/swoxze",
       audio: "",
       image: "",
       answerOptions: [
         { answerText: "Radar", isCorrect: false },
-        { answerText: "I'm a Flight Attendant", isCorrect: false },
+        { answerText: "I'm a Spy", isCorrect: false },
         { answerText: "Toxic", isCorrect: true },
         { answerText: "Falling", isCorrect: false },
       ],
@@ -529,7 +529,7 @@ export const data = [
   [
     {
       question: "Which of the following artists sings this song?",
-      video: "uCMkMTQ0rrA",
+      video: "https://streamable.com/e/2f3jlr",
       audio: "",
       image: "",
       answerOptions: [
@@ -567,7 +567,7 @@ export const data = [
     },
     {
       question: "What is the name of the song in this music video?",
-      video: "https://youtu.be/xR_AD3yyHlM",
+      video: "https://streamable.com/e/vffxoz",
       audio: "",
       image: "",
       answerOptions: [

@@ -1,18 +1,16 @@
 function Video(props) {
-  const videoUrl = "https://www.youtube.com/embed/" + props.url;
-
   return props.url.length === 0 ? (
     <div />
   ) : (
     <div>
       <iframe
         className="player"
-        width="597"
-        height="336"
-        src={videoUrl}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        width="550"
+        height="325"
+        src={props.url}
+        frameBorder="0"
         allowFullScreen
-        title="Embedded youtube"
+        title="Embedded video"
       />
     </div>
   );
