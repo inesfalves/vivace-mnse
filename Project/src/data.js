@@ -19,6 +19,8 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "",
       audio: "",
+      image:
+        "https://itk-assets.nyc3.cdn.digitaloceanspaces.com/2021/04/Screen-Shot-2021-04-16-at-4.48.29-PM-1620x911.jpg",
       answerOptions: [
         { answerText: "Frank Sinatra", isCorrect: false },
         { answerText: "Elvis Presley", isCorrect: true },
@@ -29,7 +31,9 @@ export const data = [
     {
       question: "What is the name of the song in this music video?",
       video: "",
-      audio: "../AudioFiles/bestsong.mp3",
+      audio:
+        "https://cdn.discordapp.com/attachments/681445858469871637/846002265823248424/bestsong.mp3",
+      image: "",
       answerOptions: [
         { answerText: "Mr. Sandman", isCorrect: true },
         { answerText: "Fly Me to The Moon", isCorrect: false },
@@ -41,6 +45,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "",
       audio: "../AudioFiles/bestsong.mp3",
+      image: "",
       answerOptions: [
         { answerText: "Frank Sinatra", isCorrect: true },
         { answerText: "Ray Charles", isCorrect: false },
@@ -52,6 +57,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "",
       audio: "../AudioFiles/bestsong.mp3",
+      image: "",
       answerOptions: [
         { answerText: "1950", isCorrect: false },
         { answerText: "1955", isCorrect: false },
@@ -64,6 +70,7 @@ export const data = [
         "Which of the following records is the best-selling in the 1950s?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "All Shook Up by Elvis Presley", isCorrect: false },
         {
@@ -99,6 +106,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "The Monkees", isCorrect: false },
         { answerText: "The Beatles", isCorrect: false },
@@ -110,6 +118,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Sailing the Sea", isCorrect: false },
         { answerText: "Yellow Submarine", isCorrect: true },
@@ -121,6 +130,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "The Beatles", isCorrect: false },
         { answerText: "BTS", isCorrect: false },
@@ -133,6 +143,7 @@ export const data = [
         "Which of the following records is the best-selling in the 1960s?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "The Last Time by The Rolling Stones", isCorrect: false },
         {
@@ -147,6 +158,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "1969", isCorrect: false },
         { answerText: "1964", isCorrect: false },
@@ -175,6 +187,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Jonas Brothers", isCorrect: false },
         { answerText: "Jackson 5", isCorrect: true },
@@ -186,6 +199,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Elton John", isCorrect: true },
         { answerText: "David Bowie", isCorrect: false },
@@ -197,6 +211,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "1975", isCorrect: true },
         { answerText: "1979", isCorrect: false },
@@ -208,6 +223,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Young Men", isCorrect: false },
         { answerText: "Fun", isCorrect: false },
@@ -219,6 +235,7 @@ export const data = [
       question: "What is the name of this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         {
           answerText: "Summer Nights by John Travolta and Olivia Newton John",
@@ -256,6 +273,7 @@ export const data = [
       question: "What is the name of the artist in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Diana Ross", isCorrect: false },
         { answerText: "Gwen Stefani", isCorrect: false },
@@ -267,6 +285,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "1986", isCorrect: false },
         { answerText: "1981", isCorrect: false },
@@ -278,6 +297,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Raspberry Beret", isCorrect: false },
         { answerText: "Purple Rain", isCorrect: false },
@@ -289,6 +309,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Queen", isCorrect: false },
         { answerText: "Whitney Houston", isCorrect: false },
@@ -301,6 +322,7 @@ export const data = [
         "Which of the following records is the best-selling in the 1980s?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Thriller by Michael Jackson", isCorrect: true },
         { answerText: "Make It Big by Wham!", isCorrect: false },
@@ -335,6 +357,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "NSYNC", isCorrect: false },
         { answerText: "Outkast", isCorrect: false },
@@ -346,6 +369,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Cher", isCorrect: false },
         { answerText: "Céline Dion", isCorrect: true },
@@ -357,6 +381,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "1992", isCorrect: false },
         { answerText: "1997", isCorrect: false },
@@ -368,6 +393,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "I Want to Know What Love Is", isCorrect: false },
         { answerText: "Always Be My Baby", isCorrect: true },
@@ -379,6 +405,7 @@ export const data = [
       question: "What is the name of this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Vogue", isCorrect: true },
         { answerText: "Hung Up", isCorrect: false },
@@ -406,6 +433,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "NSYNC", isCorrect: true },
         { answerText: "Big Time Rush", isCorrect: false },
@@ -417,6 +445,7 @@ export const data = [
       question: "What is the name of the artist in this picture?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Taylor Swift", isCorrect: false },
         { answerText: "Katy Perry", isCorrect: true },
@@ -428,6 +457,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Paparazzi", isCorrect: false },
         { answerText: "Poker Face", isCorrect: true },
@@ -439,6 +469,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "2002", isCorrect: false },
         { answerText: "2005", isCorrect: false },
@@ -450,6 +481,7 @@ export const data = [
       question: "What is the name of this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Radar", isCorrect: false },
         { answerText: "I'm a Flight Attendant", isCorrect: false },
@@ -477,6 +509,7 @@ export const data = [
       question: "Which of the following artists sings this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Ariana Grande", isCorrect: true },
         { answerText: "Beyoncé", isCorrect: false },
@@ -488,6 +521,7 @@ export const data = [
       question: "What is the name of this song?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "Old Town Road", isCorrect: false },
         { answerText: "Gangnam Style", isCorrect: true },
@@ -499,6 +533,7 @@ export const data = [
       question: "In which year was this song released?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "2012", isCorrect: false },
         { answerText: "2015", isCorrect: false },
@@ -510,6 +545,7 @@ export const data = [
       question: "What is the name of the song in this music video?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         {
           answerText: "Échame la Culpa by Luis Fonsi and Demi Lovato",
@@ -531,6 +567,7 @@ export const data = [
         "Which of the following albums is the best-selling in the 2010s?",
       video: "9ZkuqRGeLJM",
       audio: "",
+      image: "",
       answerOptions: [
         { answerText: "The Album by BLACKPINK", isCorrect: false },
         { answerText: "Born This Way by Lady Gaga", isCorrect: false },

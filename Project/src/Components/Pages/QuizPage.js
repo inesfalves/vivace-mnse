@@ -12,6 +12,7 @@ function QuizPage(props) {
   const [score, setScore] = useState(0);
   const [tmpIndex, setTmpIndex] = useState(props.index);
   const [isVideoPage, setIsVideoPage] = useState(false);
+  const [isAudioPage, setIsAudioPage] = useState(false);
 
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {
@@ -21,6 +22,7 @@ function QuizPage(props) {
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
       checkIsVideo(nextQuestion);
+      checkIsAudio(nextQuestion);
     } else {
       setShowScore(true);
     }
@@ -29,7 +31,8 @@ function QuizPage(props) {
   useEffect(() => {
     if (tmpIndex !== props.index) {
       setCurrentQuestion(0);
-      setIsVideoPage(!(questions[0].video.length === 0));
+      setIsVideoPage(false);
+      setIsAudioPage(false);
       setShowScore(false);
       setScore(0);
       setTmpIndex(props.index);
@@ -40,7 +43,10 @@ function QuizPage(props) {
 
   const checkIsVideo = (question) => {
     setIsVideoPage(!(questions[question].video.length === 0));
-    console.log(isVideoPage);
+  };
+
+  const checkIsAudio = (question) => {
+    setIsAudioPage(!(questions[question].audio.length === 0));
   };
 
   return props.quiz ? (
@@ -58,8 +64,14 @@ function QuizPage(props) {
           <hr />
           {isVideoPage ? (
             <Video url={questions[currentQuestion].video}></Video>
-          ) : (
+          ) : isAudioPage ? (
             <Audio audio={questions[currentQuestion].audio}></Audio>
+          ) : (
+            <img
+              src={questions[currentQuestion].image}
+              width="500"
+              height="300"
+            ></img>
           )}
           <div className="answer-section">
             {questions[currentQuestion].answerOptions.map((answerOption, i) => (
