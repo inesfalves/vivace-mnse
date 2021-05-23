@@ -15,8 +15,6 @@ function DecadePage() {
   const isQuizPage = () => pageIndex % 2 === 1;
 
   const getPageData = (propName) => {
-    console.log("index=", pageIndex);
-    console.log("aaa=", data[pageIndex]);
     return typeof data[pageIndex][0][propName] !== "undefined"
       ? data[pageIndex][0][propName]
       : "";
@@ -47,9 +45,7 @@ function DecadePage() {
           &lt;
         </Button>
       )}
-      <div>
-        <QuizPage index={pageIndex} quiz={isQuizPage()} />
-      </div>
+
       <div>
         <HistoryInfo
           index={pageIndex}
@@ -66,6 +62,7 @@ function DecadePage() {
           description={getPageData("description")}
           spotify={getPageData("spotify")}
         />
+        <QuizPage index={pageIndex} quiz={isQuizPage()} />
         <Timeline
           updatePageIndex={(index) => setPageIndex(index)}
           className="timeline"

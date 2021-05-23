@@ -126,6 +126,11 @@
   right: 4%;
 }
 
-.timelineButton{
+.timelineButton {
   cursor: pointer;
+}
+
+.answer-section {
+  display: flex;
+  justify-content: space-between;
 }
