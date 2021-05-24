@@ -201,3 +201,25 @@
   right: 0;
   margin: auto;
 }
+
+.rhap_container {
+  outline: none;
+  border: 5px solid #ab87ff;
+  border-radius: 40px;
+}
+
+.rhap_container svg {
+  color: #a17ef3;
+}
+
+.rhap_progress-indicator {
+  background: #a17ef3 !important;
+}
+
+.rhap_progress-filled {
+  background: #a17ef3 !important;
+}
+
+.rhap_controls-section {
+  flex: 0 !important;
+}
