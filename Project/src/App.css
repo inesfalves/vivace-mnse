@@ -192,9 +192,8 @@
 }
 
 .loadingPage {
-  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
-  width: 140px;
-  height: 100px;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  height: 6.25em;
   position: absolute;
   top: 0;
   bottom: 0;
