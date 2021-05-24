@@ -18,10 +18,31 @@ function QuizPage(props) {
     !(questions[0].audio.length === 0)
   );
 
-  const handleAnswerOptionClick = (isCorrect) => {
+  const sleep = (milliseconds) => {
+    return new Promise(resolve => setTimeout(resolve, milliseconds))
+  }
+
+  const handleAnswerOptionClick = async (e, isCorrect) => {
+    let buttons = document.getElementsByClassName('quizButton');
     if (isCorrect) {
       setScore(score + 1);
+      e.target.style.backgroundColor = "#daffc3";
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].style.pointerEvents = "none";
+      }
     }
+    else {
+      e.target.style.backgroundColor = "#ffbfbe";
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].style.pointerEvents = "none";
+      }
+    }
+    await sleep(1500);
+    e.target.style.backgroundColor = "#ffffff";
+    for (let i = 0; i < buttons.length; i++) {
+      buttons[i].style.pointerEvents = "auto";
+    }
+
     const nextQuestion = currentQuestion + 1;
 
     if (nextQuestion < questions.length) {
@@ -66,17 +87,17 @@ function QuizPage(props) {
           <h1 className="Home-header">{questions[currentQuestion].question}</h1>
           <div className="quizMedia">
             {isVideoPage ? (
-              <Video url={questions[currentQuestion].video}></Video>
+              <Video url={questions[currentQuestion].video}/>
             ) : isAudioPage ? (
-              <Audio audio={questions[currentQuestion].audio}></Audio>
+              <Audio audio={questions[currentQuestion].audio}/>
             ) : questions[currentQuestion].image.length === 0 ? (
               <div />
             ) : (
               <img
-                src={questions[currentQuestion].image}
-                width="550"
-                height="325"
-              ></img>
+                  src={questions[currentQuestion].image}
+                  width="550"
+                  height="325"
+              />
             )}
           </div>
           <div className="answer-section">
@@ -84,7 +105,7 @@ function QuizPage(props) {
               <button
                 className="quizButton"
                 key={i}
-                onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
+                onClick={(e) => handleAnswerOptionClick(e, answerOption.isCorrect)}
               >
                 {answerOption.answerText}
               </button>
@@ -94,7 +115,7 @@ function QuizPage(props) {
       )}
     </div>
   ) : (
-    <div style={{ display: "none" }}></div>
+    <div style={{display: "none"}}/>
   );
 }
 
