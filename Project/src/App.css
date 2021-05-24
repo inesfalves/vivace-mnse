@@ -190,3 +190,15 @@
 .quizArea {
   max-width: 800px;
 }
+
+.loadingPage {
+  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
