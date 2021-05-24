@@ -235,8 +235,8 @@ export const data = [
       image: "",
       answerOptions: [
         { answerText: "Young Men", isCorrect: false },
-        { answerText: "Village People", isCorrect: false },
-        { answerText: "YMCA", isCorrect: true },
+        { answerText: "Village People", isCorrect: true },
+        { answerText: "YMCA", isCorrect: false },
         { answerText: "Queen", isCorrect: false },
       ],
     },
