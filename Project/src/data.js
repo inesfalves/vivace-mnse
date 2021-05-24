@@ -12,6 +12,12 @@ export const data = [
       audio: "",
       image:
         "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/61f81a112509161.6015c1f980c56.jpg",
+      image2:
+        "https://travelpedia.com.br/wp-content/uploads/2020/04/elvis-937614_1280-Karen-Arnold-por-Pixabay.jpg",
+      image3:
+        "https://images-na.ssl-images-amazon.com/images/I/61W6LYSkcTL._AC_SX466_.jpg",
+      image4:
+        "https://www.telerama.fr/sites/tr_master/files/styles/simplecrop1000/public/gettyimages-466277805_0.jpg?itok=Pa5d-bch",
       spotify: "",
     },
   ],
@@ -101,6 +107,11 @@ export const data = [
       audio: "",
       image:
         "https://i.pinimg.com/originals/19/95/eb/1995eba5ac858b3fb74fde98d025909e.png",
+      image2: "https://static.tumblr.com/eixvjel/rRXno6w1s/3.png",
+      image3:
+        "https://i.pinimg.com/originals/87/bf/78/87bf78435bc3ef93a61e7a17ead3a999.jpg",
+      image4:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/The_Monkees_1966.JPG/800px-The_Monkees_1966.JPG",
       spotify: "",
     },
   ],
@@ -186,6 +197,12 @@ export const data = [
       audio: "",
       image:
         "https://i.pinimg.com/originals/4e/e9/55/4ee9556b3bb2a1cd1cbbea32848c7965.jpg",
+      image2:
+        "https://images.squarespace-cdn.com/content/v1/54f5f960e4b0c6b83de5dc30/1580861145458-6RLDLC3ENR56NEE1WFIL/ke17ZwdGBToddI8pDm48kNI0Q1Ln761VYlCvBxmVXap7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmqR3iIJG8sYUt4DJhngKxtVSEfL7wDRqHsrUEeNV3TyTl8YhG7URGjFD1KXvdjYPU/Screen+Shot+2020-02-04+at+4.05.28+PM.png",
+      image3:
+        "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/1/elton-john-1970-chris-walter.jpg",
+      image4:
+        "https://i.pinimg.com/originals/98/b0/c4/98b0c40e8b4d77911d33afc35f802820.png",
       spotify: "",
     },
   ],
@@ -275,6 +292,11 @@ export const data = [
       audio: "",
       image:
         "https://i.pinimg.com/originals/bc/93/50/bc935053c21ef93a32f20aff8e3edf48.jpg",
+      image2: "https://www.theplace2.ru/archive/michael_jackson/img/mdzh16.jpg",
+      image3:
+        "http://www.rdtladygaga.com/uploads/images/2020/08/bfb14eab08300f5e7edefaa65b501e41_medium.jpg",
+      image4:
+        "http://idata.over-blog.com/1/79/44/88/prince-purple-rain-tour/housequake_purple_08.jpg",
       spotify: "",
     },
   ],
@@ -362,6 +384,12 @@ export const data = [
       audio: "",
       image:
         "https://i.pinimg.com/originals/ef/bf/1a/efbf1ab19d4c55d3ac34780f65b2338a.jpg",
+      image2:
+        "https://i.pinimg.com/originals/d8/67/48/d8674832e47e83dd1e44207b06b4492e.jpg",
+      image3:
+        "https://i.pinimg.com/originals/80/46/76/8046764a2fee44cdb19f8489283ebc61.jpg",
+      image4:
+        "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1dhHi1.img?h=552&w=750&m=6&q=60&u=t&o=f&l=f&x=637&y=637",
       spotify: "",
     },
   ],
@@ -442,6 +470,12 @@ export const data = [
       audio: "",
       image:
         "https://images.8tracks.com/cover/i/000/730/289/808s___Heartbreak_1-1242.png?rect=396,0,768,768&q=98&fm=jpg&fit=max&w=640&h=640",
+      image2:
+        "https://i.pinimg.com/originals/3e/33/f3/3e33f3b5f8867e8b4f1dcdbb6df18a94.png",
+      image3:
+        "https://64.media.tumblr.com/42883c67908f2b3b1c0bf46014f773c9/tumblr_o8bjcjjEhO1ua5bdko1_1280.jpg",
+      image4:
+        "http://2.bp.blogspot.com/_dedcXqzPdxo/TSDrnWCUsXI/AAAAAAAAB0I/0zhqim4SFhY/s1600/shakira-pic4.jpg",
       spotify: "",
     },
   ],
@@ -522,6 +556,12 @@ export const data = [
       video: "",
       audio: "",
       image: "https://i1.sndcdn.com/artworks-000153949080-rmhovv-t500x500.jpg",
+      image2:
+        "https://api.time.com/wp-content/uploads/2014/11/taylor-swift-martin-schoeller-cover-03.jpg",
+      image3:
+        "https://variety.com/wp-content/uploads/2019/12/billie-eilish-cover-story-6.jpg?w=800",
+      image4:
+        "https://i.pinimg.com/originals/52/cf/f6/52cff6682a778b4d4462fcdecb57a222.jpg",
       spotify: "",
     },
   ],

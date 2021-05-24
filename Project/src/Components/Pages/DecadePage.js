@@ -61,6 +61,9 @@ function DecadePage() {
               title={getPageData("title")}
               description={getPageData("description")}
               image={getPageData("image")}
+              image2={getPageData("image2")}
+              image3={getPageData("image3")}
+              image4={getPageData("image4")}
               decade={getPageData("title").slice(19, 22)}
             />
             <FinalPage

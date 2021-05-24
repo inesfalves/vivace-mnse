@@ -223,3 +223,8 @@
 .rhap_controls-section {
   flex: 0 !important;
 }
+
+.carousel {
+  max-height: 500px;
+  max-width: 400px;
+}

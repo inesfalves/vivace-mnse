@@ -1,3 +1,5 @@
+import ImageCarousel from "./Carousel.js";
+
 function HistoryInfo(props) {
   return props.quiz || props.image.length === 0 ? (
     <div style={{ display: "none" }}></div>
@@ -9,13 +11,14 @@ function HistoryInfo(props) {
         <p className="Home-desc">{props.description}</p>
       </div>
       <div className="container">
-        <img
-          src={props.image}
-          width="360"
-          height="480"
-          className="artistImage"
-        />
-        <div class="centered">{props.decade}</div>
+        <ImageCarousel
+          className="carousel"
+          decade={props.decade}
+          image={props.image}
+          image2={props.image2}
+          image3={props.image3}
+          image4={props.image4}
+        ></ImageCarousel>
       </div>
     </div>
   );
