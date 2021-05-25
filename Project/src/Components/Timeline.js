@@ -1,6 +1,6 @@
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
-import whiteDot from "../whitedot.png";
+import whiteDot from "../Images/whitedot.png";
 
 function Timeline({ updatePageIndex, className, progress }) {
   return (
