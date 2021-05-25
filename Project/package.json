@@ -16,6 +16,7 @@
     "react-scripts": "4.0.3",
     "react-spotify-player": "^1.0.4",
     "react-step-progress-bar": "^1.0.3",
+    "shortid": "^2.2.16",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

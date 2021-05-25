@@ -60,10 +60,14 @@
 
 .finalPage,
 .quizArea,
-.historyInfo,
-.PageLayout {
+.historyInfo {
   animation-name: fadeIn;
   animation-duration: 1s;
+}
+
+.PageLayout {
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 .historyInfo {

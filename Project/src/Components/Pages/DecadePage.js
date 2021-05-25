@@ -9,6 +9,7 @@ import leftArrow from "../../left_arrow.jpg";
 import rightArrow from "../../right_arrow.jpg";
 import QuizPage from "./QuizPage";
 import LoadingPage from "./LoadingPage.js";
+import shortid from "shortid";
 
 function DecadePage() {
   const [pageIndex, setPageIndex] = useState(0);
@@ -38,10 +39,15 @@ function DecadePage() {
     }
   };
 
+  const getRandomKey = () => {
+    return shortid.generate();
+  };
+
   return (
     <>
       {loading === false ? (
         <div className="historyInfo">
+          {" "}
           {pageIndex === 0 ? (
             <div />
           ) : (
@@ -53,8 +59,7 @@ function DecadePage() {
               &lt;
             </Button>
           )}
-
-          <div>
+          <div key={getRandomKey()}>
             <HistoryInfo
               index={pageIndex}
               quiz={isQuizPage()}
