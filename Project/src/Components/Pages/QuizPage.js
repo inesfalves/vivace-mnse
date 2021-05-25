@@ -33,13 +33,16 @@ function QuizPage(props) {
     } else {
       e.target.style.backgroundColor = "#ffbfbe";
       for (let i = 0; i < buttons.length; i++) {
+        if(questions[currentQuestion].answerOptions[i].isCorrect){
+          buttons[i].style.backgroundColor = "#daffc3";
+        }
         buttons[i].style.pointerEvents = "none";
       }
     }
     await sleep(1300);
-    e.target.style.backgroundColor = "#ffffff";
     for (let i = 0; i < buttons.length; i++) {
       buttons[i].style.pointerEvents = "auto";
+      buttons[i].style.backgroundColor = "#ffffff";
     }
 
     const nextQuestion = currentQuestion + 1;
@@ -105,7 +108,7 @@ function QuizPage(props) {
                 className="quizButton"
                 key={i}
                 onClick={(e) =>
-                  handleAnswerOptionClick(e, answerOption.isCorrect)
+                  handleAnswerOptionClick(e, answerOption.isCorrect, i)
                 }
               >
                 {answerOption.answerText}

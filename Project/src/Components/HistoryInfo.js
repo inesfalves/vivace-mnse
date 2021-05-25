@@ -12,13 +12,13 @@ function HistoryInfo(props) {
       </div>
       <div className="container">
         <ImageCarousel
-          className="carousel"
-          decade={props.decade}
-          image={props.image}
-          image2={props.image2}
-          image3={props.image3}
-          image4={props.image4}
-        ></ImageCarousel>
+            className="carousel"
+            decade={props.decade}
+            image={props.image}
+            image2={props.image2}
+            image3={props.image3}
+            image4={props.image4}
+        />
       </div>
     </div>
   );
